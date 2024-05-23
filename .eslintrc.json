@@ -12,8 +12,8 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "airbnb-typescript/base",
-    "airbnb-base"
+    "airbnb-base",
+    "airbnb-typescript/base"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -22,20 +22,23 @@
     "project": "./tsconfig.json"
   },
   "rules": {
+    "func-names": "off",
     "semi": "error",
-    "no-console": "warn",
+    "no-console": "off",
     "no-case-declarations": "off",
     "no-plusplus": "off",
     "eol-last": "off",
     "max-len": ["error", 100],
     "no-alert": "off",
-    "comma-dangle": "off",
     "prefer-destructuring": "off",
     "no-tabs": "off",
     "no-param-reassign": "warn",
     "import/extensions": "off",
     "class-methods-use-this": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "no-nested-ternary": "off",
+    "operator-linebreak": "off",
+    "object-curly-newline": ["error", { "multiline": true, "consistent": true }]
   },
   "noInlineConfig": true
 }

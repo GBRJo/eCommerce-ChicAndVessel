@@ -1,5 +1,12 @@
-/** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
+  setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
+  moduleNameMapper: {
+    "\\.(css|scss)$": "<rootDir>/styleMock.js"
+  },
+  testEnvironment: 'jsdom',
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
+  transform: {
+    '^.+\\.(ts|tsx)$': 'ts-jest',
+    '^.+\\.(js|jsx)$': 'babel-jest',
+  },
 };
