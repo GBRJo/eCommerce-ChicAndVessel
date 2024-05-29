@@ -22,7 +22,7 @@ export const MinMaxPriceField: React.FC<IMinMaxPriceFieldProps> = ({
       onKeyDown={(e) => {
         if (e.key === 'Enter') onEnterPress();
       }}
-      aria-label="Минимальная цена"
+      aria-label="Max"
       error={minPriceError}
     />
     <div className="dash">-</div>
@@ -35,7 +35,7 @@ export const MinMaxPriceField: React.FC<IMinMaxPriceFieldProps> = ({
       onKeyDown={(e) => {
         if (e.key === 'Enter') onEnterPress();
       }}
-      aria-label="Максимальная цена"
+      aria-label="Min"
       error={maxPriceError}
     />
   </>
