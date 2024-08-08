@@ -1,4 +1,10 @@
 # E-commerce
+![image](https://github.com/user-attachments/assets/8af96129-3da0-4ef3-835e-3b86bcb9064b)
+![image](https://github.com/user-attachments/assets/7737a6dc-cf0d-4edb-a24e-a0248449e936)
+
+## Deploy
+https://chick-and-vessel-jsfe2023q4.netlify.app/
+
 
 ## Project Description
 
